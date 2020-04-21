@@ -2,6 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -220,6 +221,7 @@ def main():
             break
 
 def test():
+    """test functions"""
     df = load_data('chicago', 'all', 'all')
     raw_data(df)
     time_stats(df)

@@ -179,7 +179,7 @@ def user_stats(df):
 
 def raw_data(df):
     """Ask if user want to see raw data"""
-
+    print("Seeing raw data\n")
     see_raw = input('\nWould you like to see the raw data? (Yes or No)\n').lower()
     while see_raw not in ('yes','no'):
         print('\nInvalid input!\n')

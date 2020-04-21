@@ -195,7 +195,9 @@ def raw_data(df):
             see_raw = input('\nWould you like to see another 5 lines? Yes or No\n').lower()
 
     if(start >= df.size):
-        print('You have reached to the end of the raw data. End.')
+        print('You have reached to the end of the raw data. End.\n')
+
+    print('-'*40)
 
     return
 

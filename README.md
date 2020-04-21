@@ -5,7 +5,7 @@
 Github Project
 
 ### Description
-Describe what your project is about and what it does
+Practice git command 
 
 ### Files used
 Include the files used
